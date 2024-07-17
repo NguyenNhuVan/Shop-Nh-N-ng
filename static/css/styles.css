@@ -1,0 +1,28 @@
+
+body {
+  font-family: "Roboto";
+  color: #ffffff;
+  background-image: url('/static/images/background10.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+}
+.navbar .navbar-nav .nav-link {
+  background-color: #ffffff; /* Đổi màu nền thanh menu thành màu khác */
+  color: #15bd15; /* Đổi màu chữ */
+  position: auto; /* Giữ cố định thanh menu khi cuộn trang */
+  width: 100%; /* Chiều rộng 100% của thanh menu */
+  top: 0; /* Đặt vị trí ở đầu trang */
+  left: 0;
+  z-index: 1000; /* Đảm bảo thanh menu hiển thị trên các phần tử khác */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Hiển thị đổ bóng để tạo hiệu ứng */
+}
+
+
+.auth-card {
+  max-width: 450px;
+}
+.img-aspect {
+  width: auto;
+  margin: 0 auto;
+}
